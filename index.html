@@ -3,11 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>HanDdam Admin Page</title>
-    <link href="assets/css/home.css" rel="stylesheet" type="text/css" />
+    <title>한땀 담당자 홈</title>
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/stylesheet.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header class="top-bar">H:SOK</header>
+    <header class="top-bar">
+      <span class="top-bar-text">H:SOK</span>
+    </header>
     <div id="home-content">
       <span class="logo">
         <img src="./images/logo.png" />
@@ -16,16 +19,16 @@
         </h3>
       </span>
       <div class="home-actions">
-        <div class="button">
-          <a href="/send-estimate.html" class="send-estimate-button"
-            >견적주기</a
-          >
-        </div>
-        <div class="button">
-          <a href="/sent-estimate.html" class="sent-estimate-button"
-            >완료된 견적</a
-          >
-        </div>
+        <a
+          href="/Users/brianlee/Documents/자료/개인 자료/공부/개발/HTML:CSS/HSOK_Admin_Page/send-estimate.html"
+          class="send-estimate-button"
+          ><span class="send-estimate-text">견적 주기</span></a
+        >
+        <a
+          href="/Users/brianlee/Documents/자료/개인 자료/공부/개발/HTML:CSS/HSOK_Admin_Page/sent-estimate.html"
+          class="sent-estimate-button"
+          ><span class="sent-estimate-text">완료된 견적</span></a
+        >
       </div>
     </div>
   </body>

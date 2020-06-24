@@ -1,0 +1,95 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* Index */
+.top-bar {
+  width: 100%;
+  height: 6%;
+  line-height: 47.27px;
+  background-color: rgb(23, 154, 114);
+  display: flex;
+}
+
+.top-bar-text {
+  color: white;
+  font-size: x-large;
+  margin: 0 0 0 15px;
+}
+
+#home-content {
+  height: 94%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 908px;
+  height: 240px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-descript {
+  text-align: center;
+  color: rgb(23, 154, 114);
+}
+
+.home-actions {
+  width: 750px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-end;
+  margin: 150px 0 0 0;
+}
+
+.send-estimate-button {
+  width: 230px;
+  height: 65px;
+  line-height: 65px;
+  background-color: rgb(23, 154, 114);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sent-estimate-button {
+  width: 230px;
+  height: 65px;
+  line-height: 65px;
+  border: #e8a818 solid 1px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.send-estimate-text {
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+}
+
+.sent-estimate-text {
+  font-size: larger;
+  text-decoration: none;
+  color: #e8a818;
+}
+
+/* 견적 주기 페이지 */
