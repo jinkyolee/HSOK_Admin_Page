@@ -1,3 +1,5 @@
+@import "./reset.css";
+
 html {
   width: 100%;
   height: 100%;
@@ -10,7 +12,7 @@ body {
 }
 
 /* Index */
-#topbar {
+.top-bar {
   overflow: hidden;
   background-color: rgb(23, 154, 114);
   height: 6%;
@@ -67,7 +69,7 @@ body {
   margin-left: 1%;
 }
 
-.homecontent {
+.home-content {
   height: 94%;
   display: flex;
   flex-direction: column;
