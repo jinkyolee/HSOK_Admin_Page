@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- arranged according to BEM -->
 <html>
   <head>
     <meta charset="utf-8" />
@@ -8,48 +9,57 @@
     <link href="assets/css/stylesheet.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header id="topbar" class="sticky">
-      <span class="topbartext">요청 세부 사항</span>
+    <nav class="sticky top-bar">
+      <span class="top-bar__text">요청 세부 사항</span>
       <a href="./index.html">홈</a>
-    </header>
-    <div class="contentbox" style="margin-top: 5%;">
-      <section class="topdescriptbox">
-        <div class="smallverticalbox">
-          <img src="./assets/images/hanbok1.jpeg" class="smallrequestimage" />
-          <section class="requestdetail">
-            <span class="detail">재밌어 구름 놀이, 뜬 구름 잡는다고 해도</span>
+    </nav>
+    <section
+      class="home-content home-content--spaceA"
+      style="padding-top: 5%; height: 91%;"
+    >
+      <section class="descrip-container">
+        <div class="request-detail">
+          <img
+            src="./assets/images/hanbok1.jpeg"
+            class="request-detail__image"
+          />
+          <section class="request__descript">
+            재밌어 구름 놀이, 뜬 구름 잡는다고 해도
           </section>
         </div>
-        <div class="smallverticalbox">
-          <img src="./assets/images/hanbok2.jpeg" class="smallrequestimage" />
-          <section class="requestdetail">
-            <span class="detail"
-              >난 재밌어 이게 너네처럼 연기를 하고 싶지는 않아 clouds</span
-            >
+        <div class="request-detail">
+          <img
+            src="./assets/images/hanbok2.jpeg"
+            class="request-detail__image"
+          />
+          <section class="request__descript">
+            난 재밌어 이게 너네처럼 연기를 하고 싶지는 않아 clouds
           </section>
         </div>
-        <div class="smallverticalbox">
-          <img src="./assets/images/hanbok5.jpeg" class="smallrequestimage" />
-          <section class="requestdetail">
-            <span class="detail"
-              >뜬 구름s like 솜사탕 같아 뜬 구름s like 솜사탕 같아</span
-            >
+        <div class="request-detail">
+          <img
+            src="./assets/images/hanbok5.jpeg"
+            class="request-detail__image"
+          />
+          <section class="request__descript">
+            뜬 구름s like 솜사탕 같아 뜬 구름s like 솜사탕 같아
           </section>
         </div>
-        <div class="smallverticalbox">
-          <img src="./assets/images/hanbok6.jpeg" class="smallrequestimage" />
-          <section class="requestdetail">
-            <span class="detail"
-              >연기 같아 연기 같아 연기 같아 내가 하고 있는 건</span
-            >
+        <div class="request-detail">
+          <img
+            src="./assets/images/hanbok6.jpeg"
+            class="request-detail__image"
+          />
+          <section class="request__descript">
+            연기 같아 연기 같아 연기 같아 내가 하고 있는 건
           </section>
         </div>
       </section>
-      <a href="./answer-request-page.html" class="bigbutton">
-        <span class="buttontext" style="color: white; font-size: xx-large;"
+      <a href="./answer-request-page.html" class="big-button">
+        <span class="button__text button__text--large"
           >견적 답변 하러 가기</span
         >
       </a>
-    </div>
+    </section>
   </body>
 </html>

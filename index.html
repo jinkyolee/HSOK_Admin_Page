@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- arranged according to BEM -->
 <html>
   <head>
     <meta charset="utf-8" />
@@ -9,28 +10,29 @@
   </head>
   <body>
     <nav class="top-bar sticky">
-      <div class="topbartext">H:SOK</div>
+      <div class="top-bar__text">H:SOK</div>
     </nav>
     <section class="home-content">
       <div class="logo">
         <img
-          id="hsoklogo"
+          class="logo__image"
           src="./assets/images/logo.png"
           alt="H:SOK 로고"
-          style="width: 444px; height: 120px;"
         />
-        <div class="logodescript">
+        <div class="logo__descript">
           당신의 손길은 전통을 지키는 아름다운 일입니다
         </div>
       </div>
-      <div class="homeactions">
-        <a href="./new-requests-page.html" class="button button--newrequests"
-          ><div class="buttontext" style="color: white;">견적 주기</div></a
+      <div class="home-actions">
+        <a href="./new-requests-page.html" class="button button--new-requests"
+          ><div class="button__text" style="color: white;">견적 주기</div></a
         >
         <a
           href="./answered-requests-page.html"
-          class="button button--answeredrequests"
-          ><div class="buttontext" style="color: #e8a818;">완료된 견적</div></a
+          class="button button--answered-requests"
+          ><div class="button__text" style="color: #e8a818;">
+            완료된 견적
+          </div></a
         >
       </div>
     </section>
