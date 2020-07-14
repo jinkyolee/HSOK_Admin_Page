@@ -1,4 +1,4 @@
-/* Small Buttons */
+/* Small buttons */
 .button {
   cursor: pointer;
   display: inline-flex;
@@ -7,6 +7,7 @@
   text-decoration: none;
 }
 
+/* Buttons that go to page related to new requests */
 .button--new-requests {
   background-color: rgb(23, 154, 114);
   border: rgb(23, 154, 114) solid 2px;
@@ -16,6 +17,7 @@
   background-color: rgba(23, 154, 115, 0.75);
 }
 
+/* Buttons that go to page related to answered requests */
 .button--answered-requests {
   border: #e8a818 solid 2px;
   background-color: rgba(255, 255, 255);
@@ -25,45 +27,18 @@
   background-color: rgb(250, 250, 250);
 }
 
+/* Button text for new request pages */
 .button__text {
   text-decoration: none;
   color: white;
 }
 
-.button__text--yellow {
+/* Button text for answered request pages */
+.button__text--answered-requests {
   color: #e8a818;
 }
 
-/* Large buttons */
-.big-button {
-  display: inline-flex;
-  background-color: rgb(23, 154, 114);
-  border: rgb(23, 154, 114) solid 2px;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  border-radius: 20px;
-  margin-top: 4%;
-}
-
-.big-button__text {
-  color: white;
-  text-decoration: none;
-}
-
-.big-button:hover {
-  background-color: rgba(23, 154, 115, 0.75);
-}
-
-.big-button--yellow {
-  border: #e8a818 solid 2px;
-  background-color: #e8a818;
-}
-
-.big-button--yellow:hover {
-  background-color: #e8aa18e1;
-}
-
+/* Non-mobile screens */
 @media screen and (min-width: 840px) {
   .button {
     width: 37.82%;
@@ -79,21 +54,20 @@
     font-size: xx-large;
   }
 
-  /* Big button */
-  .big-button {
+  /* Large button */
+  .button--big {
     width: 1080px;
     height: 100px;
-  }
-
-  .big-button--margin {
     margin: 50px 0 50px 0;
   }
 }
 
+/* For mobile screens */
 @media screen and (max-width: 840px) {
   .button {
-    width: 190px;
-    height: 40px;
+    /* height: 40px width: 190px */
+    width: 100%;
+    height: 33.33%;
     border-radius: 20px;
     padding-top: 2px;
   }
@@ -102,23 +76,17 @@
     font-size: large;
   }
 
-  .button__text--large {
+  .button__text--larger {
     font-size: larger;
   }
-}
 
-@media screen and (max-width: 840px) {
-  .big-button {
+  .button--big {
     width: 300px;
     height: 56px;
-    margin-bottom: 5%;
-  }
-
-  .big-button__text {
-    font-size: larger;
-  }
-
-  .big-button--margin {
     margin: 30px 0 25px 0;
   }
+
+  /* .button--margin {
+    margin: 30px 0 25px 0;
+  } */
 }
