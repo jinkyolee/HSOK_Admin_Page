@@ -148,7 +148,7 @@
   }
 
   .request-detail__image {
-    width: 150px;
+    width: 45%;
     height: 150px;
     display: inline-block;
     border-radius: 10px;
@@ -156,7 +156,7 @@
   }
 
   .request-detail__descript {
-    width: 130px;
+    width: 35%;
     height: 110px;
     border-radius: 15px;
     font-size: small;
