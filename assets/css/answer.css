@@ -153,14 +153,15 @@
   /* 답변하기 패이지 */
   .answer-set {
     height: 85px;
+    width: 85%;
   }
 
   .input-btn-container {
-    width: 290px;
+    width: 100%;
   }
 
   .answer-input {
-    width: 200px;
+    width: 70%;
     height: 30px;
     border-radius: 10px;
   }
@@ -172,7 +173,7 @@
 
   .add-img-button__image {
     width: 30px;
-    height: 24px;
+    height: 23.5px;
   }
 
   .answer__title {
@@ -181,7 +182,7 @@
 
   /* 견적 답변 페이지 */
   .answer__text {
-    width: 240px;
+    width: 90%;
     height: 30px;
     border-radius: 10px;
   }

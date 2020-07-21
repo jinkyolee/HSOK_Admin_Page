@@ -20,6 +20,10 @@ textarea {
   resize: none;
 }
 
+span {
+  font-size: small;
+}
+
 .home-content {
   display: flex;
   flex-direction: column;

@@ -7,6 +7,7 @@
 
 .logo__image {
   display: inline-block;
+  object-fit: contain;
 }
 
 .logo__descript {
@@ -27,9 +28,8 @@
   }
 
   .logo__image {
-    display: inline-block;
-    width: 480px;
-    height: 164px;
+    width: 100%;
+    height: 65.08%;
   }
 
   .logo__descript {
@@ -47,12 +47,13 @@
 
 @media screen and (max-width: 840px) {
   .logo {
-    height: 34.78%;
+    height: 25%;
+    width: 66.67%;
   }
 
   .logo__image {
-    width: 240px;
-    height: 82px;
+    width: 100%;
+    height: 100%;
   }
 
   .logo__descript {
@@ -60,8 +61,8 @@
   }
 
   .home-actions {
-    height: 120px;
-    width: 160px;
+    height: 18.75%;
+    width: 44.45%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
